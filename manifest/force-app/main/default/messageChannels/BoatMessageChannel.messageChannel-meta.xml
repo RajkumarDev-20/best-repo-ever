@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+<description>This is a sample Lightning Message Channel Structure.</description>
+<isExposed>true</isExposed>
+<lightningMessageFields>
+        <description>This is the record Id that changed</description>
+        <fieldName>recordId</fieldName>
+    </lightningMessageFields>
+<lightningMessageFields>
+    <description>Account Record Name</description>
+    <fieldName>Name</fieldName>
+</lightningMessageFields>
+<lightningMessageFields>
+    <description>Account Description</description>
+    <fieldName>Description</fieldName>
+</lightningMessageFields>
+<masterLabel>BoatMessageChannel</masterLabel>
+</LightningMessageChannel>
